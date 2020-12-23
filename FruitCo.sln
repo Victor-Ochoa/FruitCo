@@ -69,6 +69,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitCo.Project.Commons", "
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "FruitCo.Project.Commons.tds.Master", "src\Project\Commons\tds\master\FruitCo.Project.Commons.tds.Master.scproj", "{A26BC436-F7A9-4337-B7CE-3D53CE41FDFE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nectaria", "Nectaria", "{64DDCE2D-1ACC-4FAF-B1D9-DB75B70C4C73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitCo.Project.Nectaria", "src\Project\Nectaria\code\FruitCo.Project.Nectaria.csproj", "{F340F383-CB56-4ABD-8421-32D074365285}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "FruitCo.Project.Nectaria.tds.Master", "src\Project\Nectaria\tds\master\FruitCo.Project.Nectaria.tds.Master.scproj", "{B526FB62-4665-4AC7-83FB-9D9E8D19DA91}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -85,6 +91,16 @@ Global
 		{A26BC436-F7A9-4337-B7CE-3D53CE41FDFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A26BC436-F7A9-4337-B7CE-3D53CE41FDFE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A26BC436-F7A9-4337-B7CE-3D53CE41FDFE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F340F383-CB56-4ABD-8421-32D074365285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F340F383-CB56-4ABD-8421-32D074365285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F340F383-CB56-4ABD-8421-32D074365285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F340F383-CB56-4ABD-8421-32D074365285}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B526FB62-4665-4AC7-83FB-9D9E8D19DA91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B526FB62-4665-4AC7-83FB-9D9E8D19DA91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B526FB62-4665-4AC7-83FB-9D9E8D19DA91}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B526FB62-4665-4AC7-83FB-9D9E8D19DA91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B526FB62-4665-4AC7-83FB-9D9E8D19DA91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B526FB62-4665-4AC7-83FB-9D9E8D19DA91}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +111,9 @@ Global
 		{260D8B4E-FCD6-4769-9738-8C7B68201D97} = {267BA34F-96D4-483F-A088-BDBCB969CB38}
 		{A78458F0-51DF-4D53-94FE-1893DEA5A018} = {260D8B4E-FCD6-4769-9738-8C7B68201D97}
 		{A26BC436-F7A9-4337-B7CE-3D53CE41FDFE} = {260D8B4E-FCD6-4769-9738-8C7B68201D97}
+		{64DDCE2D-1ACC-4FAF-B1D9-DB75B70C4C73} = {267BA34F-96D4-483F-A088-BDBCB969CB38}
+		{F340F383-CB56-4ABD-8421-32D074365285} = {64DDCE2D-1ACC-4FAF-B1D9-DB75B70C4C73}
+		{B526FB62-4665-4AC7-83FB-9D9E8D19DA91} = {64DDCE2D-1ACC-4FAF-B1D9-DB75B70C4C73}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C405606C-0C92-45A4-9DE5-9ABD79210A10}
