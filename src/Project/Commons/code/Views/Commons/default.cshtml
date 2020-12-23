@@ -19,9 +19,9 @@
 </head>
 <body class="home-template">
   <div class="site-wrapper">
-    <h1>header</h1>
+    @Html.Sitecore().Placeholder("header")
     @Html.Sitecore().Placeholder("main")
-    <h1>footer</h1>
+    @Html.Sitecore().Placeholder("footer")
   </div>
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="Assets/js/masonry.min.js"></script>
