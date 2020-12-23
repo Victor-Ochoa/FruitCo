@@ -2,4 +2,8 @@
   <PropertyGroup>
     <Site Server="https://fruitcosc.dev.local" UserName="sitecore\admin" IsRemoteSitecore="False" />
   </PropertyGroup>
+  <File Include="Views\Commons\default.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0" />
+  <File Include="/Views/Commons/default.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{12CDDFF3-1A9C-4046-B350-E5C0FA2ACA45}</Item>
+  </File>
 </Project>

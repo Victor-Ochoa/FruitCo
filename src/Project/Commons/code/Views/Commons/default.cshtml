@@ -1,0 +1,44 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+
+}
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  @Html.Sitecore().VisitorIdentification()
+</head>
+<body>
+  <h1>@Html.Sitecore().Field("title")</h1>
+  <div>
+  </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>@Html.Sitecore().Field("Title", new { DisableWebEdit = true })</title>
+  <meta name="description" content="Thoughts, reviews and ideas since 1999." />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="#">
+  <link rel="stylesheet" type="text/css" href="Assets/css/screen.css" />
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,700,700italic|Playfair+Display:400,700,400italic,700italic" />
+</head>
+<body class="home-template">
+  <div class="site-wrapper">
+    <h1>header</h1>
+    @Html.Sitecore().Placeholder("main")
+    <h1>footer</h1>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="Assets/js/masonry.min.js"></script>
+  <script type="text/javascript" src="Assets/js/jquery.fitvids.js"></script>
+  <script type="text/javascript" src="Assets/js/index.js"></script>
+</body>
+</html>
