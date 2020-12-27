@@ -12,4 +12,7 @@
     <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.4" />
     <PackageReference Include="Sitecore.Mvc" Version="10.0.1" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\EnterpriseStructure\code\FruitCo.Foundation.EnterpriseStructure.csproj" />
+  </ItemGroup>
 </Project>

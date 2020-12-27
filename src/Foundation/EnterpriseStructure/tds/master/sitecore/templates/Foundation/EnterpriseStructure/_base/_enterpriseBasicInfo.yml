@@ -2,7 +2,7 @@
 ID: "e06207d3-9625-46b7-a011-36184ebf6ff8"
 Parent: "c38a33da-e74a-4e54-8f4b-d9a540a7d5c2"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/Commons/_base/_enterpriseBasicInfo
+Path: /sitecore/templates/Foundation/EnterpriseStructure/_base/_enterpriseBasicInfo
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"

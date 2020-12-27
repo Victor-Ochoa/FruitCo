@@ -4,9 +4,8 @@
 @using Sitecore.Data
 @model RenderingModel
 @{
-    var logoItem = Sitecore.Context.Database.GetItem(new ID("{87305B98-AA55-4ABC-9948-D556BCAC2A38}"));
-    var startItem = Sitecore.Context.Database.GetItem(Sitecore.Context.Site.ContentStartPath);
-    var url = Sitecore.Links.LinkManager.GetItemUrl(startItem, new Sitecore.Links.UrlBuilders.ItemUrlBuilderOptions(){ LanguageEmbedding = Sitecore.Links.LanguageEmbedding.Never});
+    var logoItem = (Sitecore.Data.Items.Item)ViewBag.Enterprise;
+    var url = (string) ViewBag.SiteUrl;
 }
 <a class="blog-logo" href="@url">
   @Html.Sitecore().Field("Logo", logoItem)

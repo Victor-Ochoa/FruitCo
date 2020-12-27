@@ -1,9 +1,17 @@
 ---
-ID: "6a546095-78e3-4db4-be11-27b71f16571a"
-Parent: "e06207d3-9625-46b7-a011-36184ebf6ff8"
-Template: "e269fbb5-3750-427a-9149-7aa950b49301"
-Path: /sitecore/templates/Project/Commons/_base/_enterpriseBasicInfo/Basic Info
+ID: "84a3fd52-396e-4ea3-a2a1-3fc0e5011f1b"
+Parent: "c38a33da-e74a-4e54-8f4b-d9a540a7d5c2"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Foundation/EnterpriseStructure/_base/_siteRootBasicInfo
 DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/form_blue.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Type: tree list
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
 Languages:
 - Language: en
   Versions:
@@ -11,7 +19,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20201223T123509Z
+      Value: 20201223T123957Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -22,11 +30,11 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "983a4c2f-7e3a-4e64-8eab-ea23a8ba23b8"
+      Value: "ef6b1730-ff63-435b-92eb-8f44e30f6177"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201223T123509Z
+      Value: 20201223T124023Z

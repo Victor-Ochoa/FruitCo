@@ -28,41 +28,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution", "_Solution", "{
 		TdsGlobal.config = TdsGlobal.config
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Build", "_Build", "{CE51CD02-389F-47E7-9AF2-7D31FDC8DD12}"
-	ProjectSection(SolutionItems) = preProject
-		_build\AssemblyBindings.config = _build\AssemblyBindings.config
-		Default.Properties.props.user = Default.Properties.props.user
-		Directory.Build.props = Directory.Build.props
-		Directory.Build.targets = Directory.Build.targets
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "props", "props", "{E0E8FA25-AA65-4C6A-8753-0CBDD7B5465B}"
-	ProjectSection(SolutionItems) = preProject
-		_build\props\_NetFramework.PublishProfile.props = _build\props\_NetFramework.PublishProfile.props
-		_build\props\_NetFramework.References.props = _build\props\_NetFramework.References.props
-		_build\props\_SitecoreHost.Client.props = _build\props\_SitecoreHost.Client.props
-		_build\props\_SitecoreRoleType.props = _build\props\_SitecoreRoleType.props
-		_build\props\_TestProject.props = _build\props\_TestProject.props
-		_build\props\Default.Compiler.props = _build\props\Default.Compiler.props
-		_build\props\Default.ProjectContent.props = _build\props\Default.ProjectContent.props
-		_build\props\Default.Properties.props = _build\props\Default.Properties.props
-		_build\props\Default.Publishing.props = _build\props\Default.Publishing.props
-		_build\props\Identity.Publishing.props = _build\props\Identity.Publishing.props
-		_build\props\Identity.References.props = _build\props\Identity.References.props
-		_build\props\Website.Publishing.props = _build\props\Website.Publishing.props
-		_build\props\Website.References.props = _build\props\Website.References.props
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "targets", "targets", "{C20164E9-03BE-40DC-B581-320D5E8CCB96}"
-	ProjectSection(SolutionItems) = preProject
-		_build\targets\AutoPublish.targets = _build\targets\AutoPublish.targets
-		_build\targets\InvokeWebPublish.targets = _build\targets\InvokeWebPublish.targets
-		_build\targets\PublishSingleItem.targets = _build\targets\PublishSingleItem.targets
-		_build\targets\RemoveFilesFromPublish.targets = _build\targets\RemoveFilesFromPublish.targets
-		_build\targets\TouchConfig.targets = _build\targets\TouchConfig.targets
-		_build\targets\TransformXml.targets = _build\targets\TransformXml.targets
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commons", "Commons", "{260D8B4E-FCD6-4769-9738-8C7B68201D97}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitCo.Project.Commons", "src\Project\Commons\code\FruitCo.Project.Commons.csproj", "{A78458F0-51DF-4D53-94FE-1893DEA5A018}"
@@ -77,13 +42,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Header", "Header", "{C7FC31
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "FruitCo.Feature.Header.tds.Master", "src\Feature\Header\tds\master\FruitCo.Feature.Header.tds.Master.scproj", "{83E903D4-5B9B-422D-85FF-9097DA7D7DB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FruitCo.Feature.Header", "src\Feature\Header\code\FruitCo.Feature.Header.csproj", "{D7A6E2E2-8829-41A8-83A5-9C5450CCBA02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitCo.Feature.Header", "src\Feature\Header\code\FruitCo.Feature.Header.csproj", "{D7A6E2E2-8829-41A8-83A5-9C5450CCBA02}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logo", "Logo", "{29E3F168-82F5-4840-865A-60CE8848F7BE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitCo.Feature.Logo", "src\Feature\Logo\code\FruitCo.Feature.Logo.csproj", "{43E81D1C-08D8-4CF8-A3FD-1847A6C06445}"
 EndProject
 Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "FruitCo.Feature.Logo.tds.Master", "src\Feature\Logo\tds\master\FruitCo.Feature.Logo.tds.Master.scproj", "{F4CA1BB3-92A3-476E-A5B2-1F15DE9CC411}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EnterpriseStructure", "EnterpriseStructure", "{5407AD25-2554-4265-8531-317EF17DD5BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitCo.Foundation.EnterpriseStructure", "src\Foundation\EnterpriseStructure\code\FruitCo.Foundation.EnterpriseStructure.csproj", "{5E42CDB0-02B4-499A-8645-D21566A0F049}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "FruitCo.Foundation.EnterpriseStructure.tds.Master", "src\Foundation\EnterpriseStructure\tds\master\FruitCo.Foundation.EnterpriseStructure.tds.Master.scproj", "{669265BE-2C37-4ED1-9978-1B2D8E415186}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -125,13 +96,21 @@ Global
 		{F4CA1BB3-92A3-476E-A5B2-1F15DE9CC411}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4CA1BB3-92A3-476E-A5B2-1F15DE9CC411}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F4CA1BB3-92A3-476E-A5B2-1F15DE9CC411}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5E42CDB0-02B4-499A-8645-D21566A0F049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E42CDB0-02B4-499A-8645-D21566A0F049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E42CDB0-02B4-499A-8645-D21566A0F049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E42CDB0-02B4-499A-8645-D21566A0F049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669265BE-2C37-4ED1-9978-1B2D8E415186}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{669265BE-2C37-4ED1-9978-1B2D8E415186}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{669265BE-2C37-4ED1-9978-1B2D8E415186}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{669265BE-2C37-4ED1-9978-1B2D8E415186}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{669265BE-2C37-4ED1-9978-1B2D8E415186}.Release|Any CPU.Build.0 = Release|Any CPU
+		{669265BE-2C37-4ED1-9978-1B2D8E415186}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{E0E8FA25-AA65-4C6A-8753-0CBDD7B5465B} = {CE51CD02-389F-47E7-9AF2-7D31FDC8DD12}
-		{C20164E9-03BE-40DC-B581-320D5E8CCB96} = {CE51CD02-389F-47E7-9AF2-7D31FDC8DD12}
 		{260D8B4E-FCD6-4769-9738-8C7B68201D97} = {267BA34F-96D4-483F-A088-BDBCB969CB38}
 		{A78458F0-51DF-4D53-94FE-1893DEA5A018} = {260D8B4E-FCD6-4769-9738-8C7B68201D97}
 		{A26BC436-F7A9-4337-B7CE-3D53CE41FDFE} = {260D8B4E-FCD6-4769-9738-8C7B68201D97}
@@ -143,6 +122,9 @@ Global
 		{29E3F168-82F5-4840-865A-60CE8848F7BE} = {1671600F-DBC8-4471-8438-9C3D8C6D9FF0}
 		{43E81D1C-08D8-4CF8-A3FD-1847A6C06445} = {29E3F168-82F5-4840-865A-60CE8848F7BE}
 		{F4CA1BB3-92A3-476E-A5B2-1F15DE9CC411} = {29E3F168-82F5-4840-865A-60CE8848F7BE}
+		{5407AD25-2554-4265-8531-317EF17DD5BA} = {016FE951-2DAD-4766-9046-9AADA8C0813A}
+		{5E42CDB0-02B4-499A-8645-D21566A0F049} = {5407AD25-2554-4265-8531-317EF17DD5BA}
+		{669265BE-2C37-4ED1-9978-1B2D8E415186} = {5407AD25-2554-4265-8531-317EF17DD5BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C405606C-0C92-45A4-9DE5-9ABD79210A10}

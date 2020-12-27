@@ -1,8 +1,8 @@
 ---
 ID: "27aa05fb-81c0-4861-b390-ed190c6a1ce9"
-Parent: "ca8428db-e518-4ede-8d90-b3533ab43ac7"
+Parent: "06fbdec5-a382-47ea-b632-e33861d0fc21"
 Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
-Path: /sitecore/templates/Project/Commons/Site Root
+Path: /sitecore/templates/Foundation/EnterpriseStructure/Site Root
 DB: master
 SharedFields:
 - ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
@@ -27,11 +27,11 @@ Languages:
       Value: 20201223T115121Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9ce3e2e4-3ef4-42b4-b6cf-96d9cd81ba83"
+      Value: "7341bebf-3030-454f-9555-954ff7cabcb2"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\admin
+        sitecore\Admin
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20201223T131956Z
+      Value: 20201227T024924Z
