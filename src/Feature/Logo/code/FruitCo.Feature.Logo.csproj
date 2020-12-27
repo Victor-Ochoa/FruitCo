@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>FruitCo.Feature.Logo</RootNamespace>
+    <AssemblyName>FruitCo.Feature.Logo</AssemblyName>
+    <SitecoreRoleType>website</SitecoreRoleType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="Views\Logo\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.Mvc" Version="5.2.4" />
+    <PackageReference Include="Sitecore.Mvc" Version="10.0.1" />
+  </ItemGroup>
+</Project>
