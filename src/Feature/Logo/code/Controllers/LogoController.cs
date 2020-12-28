@@ -1,6 +1,7 @@
 ﻿using FruitCo.Foundation.EnterpriseStructure.Interface;
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
+using Sitecore.Mvc.Controllers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,15 +10,10 @@ using System.Web.Mvc;
 
 namespace FruitCo.Feature.Logo.Controllers
 {
-  public class LogoController : Controller
+  public class LogoController : SitecoreController
   {
         private readonly IEnterprise _enterprise;
         private readonly ISite _site;
-
-        public LogoController(): this(ServiceLocator.ServiceProvider.GetService<IEnterprise>(), ServiceLocator.ServiceProvider.GetService<ISite>())
-        {
-
-        }
 
         public LogoController(IEnterprise enterprise, ISite site)
         {
@@ -25,7 +21,7 @@ namespace FruitCo.Feature.Logo.Controllers
             this._site = site;
         }
     // GET: Default
-    public ActionResult Index()
+    public override ActionResult Index()
     {
       ViewBag.Enterprise = _enterprise.GetEnterpriseFromCurrentSite();
       ViewBag.SiteUrl = _site.GetStartUrl();

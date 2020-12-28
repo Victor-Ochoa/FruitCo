@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>FruitCo.Foundation.DI</RootNamespace>
+    <AssemblyName>FruitCo.Foundation.DI</AssemblyName>
+    <SitecoreRoleType>website</SitecoreRoleType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Sitecore.Mvc" Version="10.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\code\FruitCo.Foundation.Core.csproj" />
+  </ItemGroup>
+</Project>
