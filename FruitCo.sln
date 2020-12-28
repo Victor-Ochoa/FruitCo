@@ -70,6 +70,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{827824E0-F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitCo.Foundation.Core", "src\Foundation\Core\code\FruitCo.Foundation.Core.csproj", "{2831CB6C-DF91-4E2C-B2ED-F389CBA89FFE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{D48AF0E2-F42E-452F-8339-2FA9A8FA8C8F}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\helixcheck.yml = .github\workflows\helixcheck.yml
+		.github\workflows\msbuild-CI.yml = .github\workflows\msbuild-CI.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -157,6 +163,7 @@ Global
 		{AE49615A-0822-49FD-99FA-7E2C07524342} = {D9BCE1F5-4166-4129-921A-8FADB60E67CF}
 		{827824E0-F25E-43CC-9B16-ACB47B4C3EDD} = {016FE951-2DAD-4766-9046-9AADA8C0813A}
 		{2831CB6C-DF91-4E2C-B2ED-F389CBA89FFE} = {827824E0-F25E-43CC-9B16-ACB47B4C3EDD}
+		{D48AF0E2-F42E-452F-8339-2FA9A8FA8C8F} = {DEF0D4AE-538F-404C-85D9-3A4CDEC20426}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C405606C-0C92-45A4-9DE5-9ABD79210A10}
