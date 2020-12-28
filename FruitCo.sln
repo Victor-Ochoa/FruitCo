@@ -72,7 +72,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitCo.Foundation.Core", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{D48AF0E2-F42E-452F-8339-2FA9A8FA8C8F}"
 	ProjectSection(SolutionItems) = preProject
-		.github\workflows\helixcheck.yml = .github\workflows\helixcheck.yml
 		.github\workflows\msbuild-CI.yml = .github\workflows\msbuild-CI.yml
 	EndProjectSection
 EndProject
