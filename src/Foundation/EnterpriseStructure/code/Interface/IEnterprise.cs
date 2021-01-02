@@ -9,6 +9,6 @@ namespace FruitCo.Foundation.EnterpriseStructure.Interface
 {
   public interface IEnterprise
   {
-    Item GetEnterpriseFromCurrentSite();
+    Item GetEnterpriseFromCurrentSite(Item currentItem);
   }
 }

@@ -5,4 +5,7 @@
     <AssemblyName>FruitCo.Foundation.EnterpriseStructure</AssemblyName>
     <SitecoreRoleType>website</SitecoreRoleType>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\code\FruitCo.Foundation.Core.csproj" />
+  </ItemGroup>
 </Project>

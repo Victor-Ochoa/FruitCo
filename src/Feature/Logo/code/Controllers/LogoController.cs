@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.DependencyInjection;
 using Sitecore.Mvc.Controllers;
+using Sitecore.Mvc.Presentation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +24,7 @@ namespace FruitCo.Feature.Logo.Controllers
     // GET: Default
     public override ActionResult Index()
     {
-      ViewBag.Enterprise = _enterprise.GetEnterpriseFromCurrentSite();
+      ViewBag.Enterprise = _enterprise.GetEnterpriseFromCurrentSite(RenderingContext.Current.Rendering.Item);
       ViewBag.SiteUrl = _site.GetStartUrl();
       return View();
     }
